@@ -31,7 +31,7 @@ Dado que esta extensión no se encuentra en la Chrome Web Store, puedes instalar
 1. Inicia sesión en https://www.uanl.mx/enlinea/ y dirígete al apartado de Encuestas CEV.
 2. Haz clic en el ícono de la extensión en la parte superior de tu navegador.
 3. Configura tu modo preferido (respuesta fija o aleatoria con filtros).
-4. Presiona el botón de llnear encuesta o llenar todas las encuestas.
+4. Presiona el botón de llenear encuesta o llenar todas las encuestas.
 
 ## ⚠️ Aviso / Disclaimer
 
