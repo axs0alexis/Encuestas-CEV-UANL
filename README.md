@@ -11,7 +11,7 @@ Extensión para navegadores basados en Chromium diseñada para autocompletar de 
 
 ## 📸 Capturas de pantalla
 
-![Interfaz y funcionamiento de la extensión](./assets/image.png)
+![Interfaz del popup](./assets/popup_screenshot.png)
 
 ## 🚀 Instalación (Modo Desarrollador)
 
@@ -28,7 +28,7 @@ Dado que esta extensión no se encuentra en la Chrome Web Store, puedes instalar
 
 ## 🛠️ Uso
 
-1. Inicia sesión en tu cuenta de **SIASE** y dirígete al apartado de encuestas pendientes (CEV).
+1. Inicia sesión en https://www.uanl.mx/enlinea/ y dirígete al apartado de Encuestas CEV.
 2. Haz clic en el ícono de la extensión en la parte superior de tu navegador.
 3. Configura tu modo preferido (respuesta fija o aleatoria con filtros).
 4. Presiona el botón de llnear encuesta o llenar todas las encuestas.
@@ -37,4 +37,4 @@ Dado que esta extensión no se encuentra en la Chrome Web Store, puedes instalar
 
 Este proyecto fue creado únicamente con fines educativos y de ahorro de tiempo para estudiantes. Úsalo bajo tu propia responsabilidad. No está afiliado, asociado ni respaldado oficialmente por la universidad ni por los desarrolladores del sistema SIASE.
 
-Esta extensión no recopila ni envia NINGUN dato a servidores de terceros, todo el código se queda entre tu dispositivo y los servidores de la UANL.
+Esta extensión no recopila ni envia NINGUN dato a servidores de terceros. Todo se ejecuta de manera local y los datos quedan entre tu dispositivo y los servidores de la UANL.
