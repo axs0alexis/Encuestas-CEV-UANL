@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+    <script src="popup.js" defer></script>
+</head>
+<body>
+    <div>
+        <h1>Encuestas CEV</h1>
+
+        <p>
+            Opciones de llenado
+            <span class="tooltip" data-tooltip="Todas las preguntas de la encuesta se responderán con la opción seleccionada.">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-question-mark preview-icon"><circle cx="12" cy="12" r="10"/><path d="M9 9.5a3 2.5 0 016 0c0 2-2 2-3 3.5"/><path d="M12 17h.01"/></svg>
+            </span>
+        </p>
+        <label><input type="radio" name="fill-op" value="-1" checked>Aleatorio</label>
+        <br>
+        <label><input type="radio" name="fill-op" value="0">Excelente</label>
+        <br>
+        <label><input type="radio" name="fill-op" value="1">Muy Buena</label>
+        <br>
+        <label><input type="radio" name="fill-op" value="2">Buena</label>
+        <br>
+        <label><input type="radio" name="fill-op" value="3">Regular</label>
+        <br>
+        <label><input type="radio" name="fill-op" value="4">Deficiente</label>
+
+
+        <p>
+            Opciones aleatorias 
+            <span class="tooltip" data-tooltip="Las opciones seleccionadas son las que se elegirán aleatoriamente.">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-question-mark preview-icon"><circle cx="12" cy="12" r="10"/><path d="M9 9.5a3 2.5 0 016 0c0 2-2 2-3 3.5"/><path d="M12 17h.01"/></svg>
+            </span>
+        </p>
+        <label><input type="checkbox" name="random-cb" value="0" checked>Excelente</label>
+        <br>
+        <label><input type="checkbox" name="random-cb" value="1" checked>Muy Buena</label>
+        <br>
+        <label><input type="checkbox" name="random-cb" value="2" checked>Buena</label>
+        <br>
+        <label><input type="checkbox" name="random-cb" value="3">Regular</label>
+        <br>
+        <label><input type="checkbox" name="random-cb" value="4">Deficiente</label>
+        <br>
+
+
+        <p>
+            Subir automaticamente
+            <span class="tooltip" data-tooltip="Después de llenar la encuesta con la configuración actual, se subirá al sistema automáticamente.">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-question-mark preview-icon"><circle cx="12" cy="12" r="10"/><path d="M9 9.5a3 2.5 0 016 0c0 2-2 2-3 3.5"/><path d="M12 17h.01"/></svg>
+            </span>
+        </p>
+        <label class="switch">
+            <input type="checkbox" id="auto-submit" checked>
+            <span class="slider"></span>
+        </label>
+
+        
+        <div class="btn-container">
+            <button id="fill-btn">Llenar encuesta</button>
+        </div>
+        <div class="btn-container">
+            <button id="complete-all-btn"">Llenar todas las encuesta</button>
+        </div>
+    </div>
+</body>
+</html>
